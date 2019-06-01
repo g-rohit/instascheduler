@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700');
+
+body{
+    background: #000000 !important;
+}
+.card {
+    margin: 10px !important;
+    border: 0 !important;
+}
+
+.card:hover {
+transform: scale(1.05);
+opacity: .99;
+transition: all 0.5s ease-in-out;
+
+}
+.card1 {
+    background: linear-gradient(to bottom right, #ff6ec4, #f94e4e);
+    box-shadow: 3px 15px 30px rgb(249, 80, 88, 0.75);
+     
+}
+  
+.card2 {
+    background: linear-gradient(to bottom right, #FFC837, #FF8008);
+    box-shadow: 3px 15px 30px rgba(252, 213, 20, 0.75);
+}
+  
+  
+.card3 {
+    background: linear-gradient(to bottom right, #56D0FD, #a100ff);
+    box-shadow: 3px 15px 30px rgba(171, 86, 252, 0.75);
+}
+  /* .card3 {
+    background: linear-gradient(to bottom right, #FDBD56, #FD56B6);
+    box-shadow: 3px 15px 30px rgba(253, 99, 169, 0.75);
+  } */
+
+  
+  h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #000000;
+    font-size: 50px;
+  }
+
+  h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #000000;
+  }
+
+  .checkList {
+list-style: none;
+margin: 0;
+padding: 0;
+color: #ffffff;  
+}
+
+.fa-rupee-sign {
+    font-size: 26px;
+}
+
+.button {
+    background: linear-gradient(92deg, #9800ff, #4a007b, #7900a7);
+background-size: 600% 600%;
+border: 0;
+border-radius: 50px;
+-webkit-animation: AnimationName 14s ease infinite;
+-moz-animation: AnimationName 14s ease infinite;
+-o-animation: AnimationName 14s ease infinite;
+animation: AnimationName 14s ease infinite;
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+}
+
+.button:hover {
+    background: #340049 !important;
+    transform: 1s ease;
+box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.329);
+}
+
+
+.premiumPacktext {
+    font-size: 24px;
+    color: #FF8008;
+}
