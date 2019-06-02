@@ -184,3 +184,10 @@ padding-left: 30px;
   ::-webkit-scrollbar-thumb:hover {
     background: rgb(204, 0, 255); 
   }
+
+  .page-not-found img {
+
+    width: 65%;
+    height: auto;
+
+  }

@@ -19,18 +19,21 @@ transition: all 0.5s ease-in-out;
 .card1 {
     background: linear-gradient(to bottom right, #ff6ec4, #f94e4e);
     transition: all 0.5s ease-in-out;
+    
      
 }
   
 .card2 {
     background: linear-gradient(to bottom right, #FFC837, #FF8008);
     transition: all 0.5s ease-in-out;
+  
 }
   
   
 .card3 {
     background: linear-gradient(to bottom right, #56D0FD, #a100ff);
     transition: all 0.5s ease-in-out;
+   
 }
  
 .card1:hover {
