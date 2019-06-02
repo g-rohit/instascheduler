@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700');
 
-body{
+/* body{
     background: #000000 !important;
-}
+} */
 .card {
     margin: 10px !important;
     border: 0 !important;
@@ -14,20 +14,37 @@ opacity: .99;
 transition: all 0.5s ease-in-out;
 
 }
+
+
 .card1 {
     background: linear-gradient(to bottom right, #ff6ec4, #f94e4e);
-    box-shadow: 3px 15px 30px rgb(249, 80, 88, 0.75);
+    transition: all 0.5s ease-in-out;
      
 }
   
 .card2 {
     background: linear-gradient(to bottom right, #FFC837, #FF8008);
-    box-shadow: 3px 15px 30px rgba(252, 213, 20, 0.75);
+    transition: all 0.5s ease-in-out;
 }
   
   
 .card3 {
     background: linear-gradient(to bottom right, #56D0FD, #a100ff);
+    transition: all 0.5s ease-in-out;
+}
+ 
+.card1:hover {
+    border-radius: 3% !important;
+    box-shadow: 3px 15px 30px rgb(249, 80, 88, 0.75);
+
+}
+.card2:hover {
+    border-radius: 3% !important;
+    box-shadow: 3px 15px 30px rgba(252, 213, 20, 0.75);
+
+}
+.card3:hover {
+    border-radius: 3% !important;
     box-shadow: 3px 15px 30px rgba(171, 86, 252, 0.75);
 }
   /* .card3 {
