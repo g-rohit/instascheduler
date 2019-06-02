@@ -1,0 +1,61 @@
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+table {
+	font-size: 1em;
+}
+
+.title , #TnC{
+	font-weight: bold !important;
+}
+
+.ui-draggable, .ui-droppable {
+	background-position: top;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    border: 1px solid #8700ac !important;
+    background: #4a006c !important;
+    font-weight: normal;
+	color: #ffffff;
+	transform: 0.5s ease-in-out;
+}
+
+.ui-widget-content {
+    border: 1px solid #8200a7 !important;
+    background: #f7beff !important;
+    color: #4a006c !important;
+ 
+}
+
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    border: 1px solid #e589ff !important;
+    background: #2a0042 !important;
+    font-weight: bold;
+    color: #ffffff !important;
+}
+
+.ui-accordion .ui-accordion-header {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    margin: 2px 0 0 0;
+     font-size: 100%;
+    padding: 20px !important;
+transform: 0.5s ease-in-out;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.ui-accordion .ui-accordion-content {
+	font-family: 'Roboto Condensed', sans-serif;
+ 
+    padding-top: 1em;
+    padding-right: 2.2em;
+    padding-bottom: 0em;
+    padding-left: 2.2em;
+    border-top: 0;
+	overflow: auto;
+}
